@@ -1,3 +1,44 @@
-// test git pull uniquement
+ex08
 
-// test git push
+5/20
+
+Inspiré du projet https://github.com/leduy10/ex08/
+
+-1
+pas de lib
+
+8.1
+-1
+var membres = [  
+    {"association": "Information Systems", "firstName": "Dzenan", "lastName": "Ridjanovic","email": "dr@gmail.com"},
+    {"association": "Information Systems","firstName": "Robert","lastName": "Nelson","email": "rn@gmail.com"},
+    {"association": "Computer Science","firstName": "David","lastName": "Curtis","email": "dc@gmail.com"},
+    {"association": "Student", "firstName" : "Jeff", "lastName": "Gagnon", "email": "jeffgagnon@hotmail.com"}, //test
+    ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+-1
+triNom(var membres) {
+-->
+triNom(List membres) {
+
+getLastNameLetter(var membres, var lettre) {
+-->
+getLastNameLetter(List membres, String lettre) {
+
+SVPL, ne utilisez pas print dans une fonction (sauf main)
+
+-10
+8.2 manquant
