@@ -1,5 +1,46 @@
 ex08
 
+15/20
+
+-1
+pas de lib
+
+8.1
+-1
+var membres = [  
+    {"association": "Information Systems", "firstName": "Dzenan", "lastName": "Ridjanovic","email": "dr@gmail.com"},
+    {"association": "Information Systems","firstName": "Robert","lastName": "Nelson","email": "rn@gmail.com"},
+    {"association": "Computer Science","firstName": "David","lastName": "Curtis","email": "dc@gmail.com"},
+    {"association": "Student", "firstName" : "Jeff", "lastName": "Gagnon", "email": "jeffgagnon@hotmail.com"}, //test
+    ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1
+getLastNameLetter(var membres, var lettre) {
+-->
+getLastNameLetter(List membres, String lettre) {
+
+8.2
+
+-1
+Association(var this.asso, var this.nom, var this.description);
+-->
+Association(this.asso, this.nom, this.description);
+
+-1
+formatage
+Question2() {
+List vert = new List();
+
+---
+
 5/20
 
 Inspiré du projet https://github.com/leduy10/ex08/
